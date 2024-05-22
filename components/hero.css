@@ -1,0 +1,124 @@
+.home__about {
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+.home__about .boxed {
+    display: flex;
+    flex-direction: column;
+}
+
+.home__about .boxed2 {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.home__about .boxed2__description-set {
+    justify-content: center;
+    text-align: center;
+}
+
+.home__about .heading-primary {
+    text-align: center;
+}
+
+.home__about__container {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+    padding: 40px;
+}
+
+.home__about__description {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.home__about__description > .description-set {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    text-align: left;
+    justify-content: center;
+    text-align: center;
+}
+
+.home__about__illustration {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff;
+    border-radius: 2rem;
+}
+
+.home__about__illustration__img {
+    width: 100%;
+    border-radius: 2rem;
+
+}
+
+.home__about__illustration__win {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+    .home__about {
+        padding-top: 12rem;
+        padding-bottom: 4rem;
+    }
+
+    .home__about .boxed {
+        gap: 8rem;
+    }
+
+    .home__about__container {
+        flex-direction: column;
+        gap: 4rem;
+        padding: 20px;
+    }
+
+    .home__about__description {
+        flex-basis: 100%;
+    }
+
+    .home__about__illustration {
+        flex-basis: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .home__about {
+        padding-top: 8rem;
+        padding-bottom: 4rem;
+    }
+
+    .home__about .boxed {
+        gap: 4rem;
+    }
+
+    .home__about__container {
+        flex-direction: column;
+        gap: 4rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .home__about__description {
+        flex-basis: 100%;
+    }
+
+    .home__about__illustration {
+        flex-basis: 100%;
+    }
+
+   
+}

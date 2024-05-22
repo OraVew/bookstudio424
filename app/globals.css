@@ -1,0 +1,12 @@
+/* styles/globals.css */
+
+/* Ensure the html and body elements have a white background */
+html, body {
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* You can add more global styles as needed */

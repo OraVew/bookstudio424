@@ -1,0 +1,36 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-family: 'Your Brand Font', sans-serif;
+  color: #YourBrandColor;
+  width: 80%; /* Increase the width of the form */
+}
+
+.paymentElement {
+  width: 100%;
+  padding: 10px;
+  border: none; /* Remove the border */
+}
+
+.submitButton {
+  padding: 10px 20px;
+  background-color: #00ff00; /* Make the button green */
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttonText {
+  font-size: 16px;
+}
+
+.spinner {
+  /* Add your spinner styles here */
+}
+
+.paymentMessage {
+  margin-top: 20px;
+}
